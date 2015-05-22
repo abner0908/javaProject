@@ -1,2 +1,2 @@
 # javaProject
-my java practics
+my java exercise
