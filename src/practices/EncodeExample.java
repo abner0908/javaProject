@@ -1,4 +1,4 @@
-//package myJava;
+package practices;
 import java.io.*;
 public class EncodeExample {
 

@@ -1,4 +1,4 @@
-//package myJava;
+package practices;
 
 public class HelloWorld {
 
