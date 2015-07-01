@@ -21,14 +21,16 @@ public class JavaException13_5 {
 				date.toString();
 			}
 		} catch (ParseException | IOException e) {
-			System.out.println(e.getMessage());
+			System.err.println(e.getMessage());
+			System.err.println(e.toString());
+			
 			// e.printStackTrace();
 		} finally {
 			if (reader != null) {
 				try {
 					reader.close();
 				} catch (IOException e) {
-
+					
 				}
 			}
 		}
